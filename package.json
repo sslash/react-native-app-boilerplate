@@ -1,0 +1,42 @@
+{
+  "name": "app boilerplate",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "ios": "react-native run-ios --simulator iPhoneX",
+    "test": "jest",
+    "lint": "eslint app"
+  },
+  "dependencies": {
+    "invariant": "^2.2.4",
+    "lodash": "^4.17.10",
+    "react": "16.3.1",
+    "react-native": "0.55.4",
+    "react-native-animatable": "^1.3.0",
+    "react-native-keep-awake": "^3.0.1",
+    "react-native-rss-parser": "^1.1.0",
+    "react-native-sound": "^0.10.9",
+    "react-navigation": "^2.5.5",
+    "recompose": "^0.27.1",
+    "rn-spotify-sdk": "^1.1.1",
+    "unstated": "^2.1.1"
+  },
+  "devDependencies": {
+    "babel-jest": "23.2.0",
+    "babel-preset-react-native": "4.0.0",
+    "eslint": "^5.0.1",
+    "eslint-config-universe": "^1.0.7",
+    "jest": "23.2.0",
+    "prettier": "^1.13.7",
+    "react-test-renderer": "16.3.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": [
+      "./assets/fonts/"
+    ]
+  }
+}
